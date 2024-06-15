@@ -6,6 +6,9 @@ Curso Git Ada - Santander 2024
     3 - Modified
     4 - Staged
 
+git init
+# inicia um repositório no git
+
 git add .\nome_arqui.txt
 # add arquivo no staged
 
