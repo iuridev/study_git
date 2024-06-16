@@ -45,3 +45,16 @@ Curso Git Ada - Santander 2024
 ## git fetch
 #### prever as alterações que foram feitas no servidor remoto
 #### combinar com o git diff
+
+
+
+git checkout newbrach
+mudar de brach
+
+
+git log --oneline --decorate
+mostrar o log das branchs
+
+git merge newbrach
+mescla os comites de outra branch
+
