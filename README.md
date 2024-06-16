@@ -6,18 +6,23 @@ Curso Git Ada - Santander 2024
     3 - Modified
     4 - Staged
 
-git init
-# inicia um repositório no git
+## git init
+### inicia um repositório no git
 
-git add .\nome_arqui.txt
-# add arquivo no staged
+## git add .\nome_arqui.txt
+### add arquivo no staged
 
-git commit -m "enviando arquivo"
-# comitando arquivo no git
+## git commit -m "enviando arquivo"
+### comitando arquivo no git
 
-git diff
-# mostra as alterações feitas no arquivo
+## git diff
+### mostra as alterações feitas no arquivo
 
-git log
-# mostra o histórico de commit
+## git log
+### mostra o histórico de commit
 
+## git restore ./nomeArquivo.txt
+### restalra o aquivo modificado
+
+## git restore  --staged ./nomeArquivo.txt
+### retorna do staged para o modify
