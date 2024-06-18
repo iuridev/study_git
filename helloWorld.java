@@ -1,4 +1,10 @@
 
+import java.awt.Taskbar;
+import java.time.LocalDate;
+import java.time.format.TextStyle;
+import java.util.Locale;
+
+
 
 class HelloWorld{
     public static void main(String[] args) {
@@ -13,6 +19,11 @@ class HelloWorld{
         boolean fimDeSemana = true;
         String sairFimSemana = fimDeSemana ? "sair para algum lugar." : "ficar em casa.";
         System.err.println("Neste final de semana eu vou " + sairFimSemana);
+
+        LocalDate nowDate = LocalDate.now();
+        System.out.println("Data atual: " + nowDate);
+        Locale brasil = new  Locale("pt","BR");
+        System.out.println("Localização: " + nowDate.getDayOfWeek().getDisplayName(TextStyle.FULL, brasil));
 
     }
 }
